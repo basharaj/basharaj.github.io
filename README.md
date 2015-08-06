@@ -1,3 +1,2 @@
-# basharaj.github.io
+# The nice programmer blog
 
-The nice programmer blog.
