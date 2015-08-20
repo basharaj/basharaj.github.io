@@ -4,4 +4,4 @@ title:  "I don't remember how to balance a binary search tree, and that's perfec
 date:   2015-08-19 22:54:00
 categories: programming
 ---
-Hello world
+Coming soon.
