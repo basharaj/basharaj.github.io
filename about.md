@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+My name is Bashar Abdul Jawad and I am a software developer. I live in Scottsdale, Arizona where I get to enjoy 8 months of awesome weather and 4 months of miserable one.
+This is my personal blog about things that I find interesting enough to blog about. It is mostly related to programming and technology but sometime I might write about unrelated stuff, like how
+much I hate the Kardashians.
