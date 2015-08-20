@@ -1,2 +1,2 @@
-# The nice programmer blog
+# Programmer with a life
 
