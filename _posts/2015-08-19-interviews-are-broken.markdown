@@ -31,7 +31,7 @@ There are many books online that prepare you for such interviews. You can simply
 
 Does Google have brilliant engineers? Absolutely. Does it mean their interview process works? not necessarily. Think of all the brilliant engineers that were turned down by Google because they couldn't answer their algorithmic questions. Max Howell, a brilliant programmer who wrote Homebrew was turned down at Google because he couldn't invert a Binary Tree on a white board and famously tweeted <a href="https://twitter.com/mxcl/status/608682016205344768">"Google: 90% of our engineers use the software you wrote (Homebrew), but you can't invert a binary tree on a whiteboard so fuck off."</a> He then went to join Apple. Good for him.
 
-Also who said that *all* engineers in Google are good? Look at many of Google's failed products. Google+ anyone? I bet whoever came up with that brilliant idea was able to invert a binary tree on a white board in no time. What good did that do to him and Google?
+Also who said that *all* engineers in Google are good? Look at many of Google's failed products. Google+ anyone? I bet whoever came up with that brilliant idea was able to invert a binary tree on a white board in no time. What good did that do to him and to Google?
 
 So what are some appropriate questions to ask during an interview? I think the best questions are the ones you don't have to ask. Look at a candidate's GitHub account, their contribution to open source software, any books they wrote, their blog, heck even their twitter feed. That should be your best tool to assess a candidate's technical abilities.
 
