@@ -1,2 +1,2 @@
-# Programmer with a life
+# Life, programming and everything in between
 
