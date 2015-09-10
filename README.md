@@ -1,3 +1,1 @@
-# Life, programming and everything in between
-
-[Link] (http://basharaj.github.io)
+# [Life, programming and everything in between] (http://basharaj.github.io)
