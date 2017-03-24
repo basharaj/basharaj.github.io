@@ -10,7 +10,7 @@ I'll show you how to do that.
 
 At a minimum you are going to need the `spark-core` and `spark-yarn` dependencies. Those include the Spark classes that you are going to need to submit your Spark job.
 
-If you using Maven the dependencies are:
+If using Maven the dependencies are:
 
 ```
 <groupId>org.apache.spark</groupId>
