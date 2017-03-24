@@ -114,9 +114,6 @@ public class SparkJobSubmitter  {
 
     List<String> args = Lists.newArrayList("--name", jobName, "--jar", applicationJar, "--class", jobClass);
 
-    SparkConf sparkConf = new SparkConf();
-    sparkConf.set("spark.yarn.preserve.staging.files", "true");
-
     if (additionalJars != null && additionalJars.length > 0) {
       args.add("--addJars");
       args.add(StringUtils.join(additionalJars, ","));
@@ -149,6 +146,9 @@ public class SparkJobSubmitter  {
 
     // identify that you will be using Spark as YARN mode
     System.setProperty("SPARK_YARN_MODE", "true");
+
+    SparkConf sparkConf = new SparkConf();
+    sparkConf.set("spark.yarn.preserve.staging.files", "true");
 
     for (Map.Entry<Object, Object> e : sparkProperties.entrySet()) {
       sparkConf.set(e.getKey().toString(), e.getValue().toString());
