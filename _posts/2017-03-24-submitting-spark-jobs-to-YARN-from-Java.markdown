@@ -101,7 +101,7 @@ public class SparkJobSubmitter  {
   private Properties sparkProperties;
 
   public SparkJobSubmitter(String jobName, String jobClass, String applicationJar, Properties sparkProperties,
-                           String[] additionalJars, String[] files, boolean killRunningJobs, boolean enableHistoryServer, boolean addHiveDelegationToken) {
+                           String[] additionalJars, String[] files) {
     this.jobName = jobName;
     this.jobClass = jobClass;
     this.applicationJar = applicationJar;
