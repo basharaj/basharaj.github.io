@@ -59,11 +59,11 @@ Once you have built your list of args, you need to pass them to `ClientArguments
 
 Remember what I said earlier that Spark configuration can be confusing? there is a third place where you have to set Spark properties. System properties. If you are using Spark in YARN mode the only way to configure so is as a System property:
 
-`System.setProperty("SPARK_YARN_MODE", "true");`
+```System.setProperty("SPARK_YARN_MODE", "true");```
 
 Which should be enough for Spark to pick it up at runtime.
 
-* Putting it all together
+* **Putting it all together**
 
 Now you are ready to submit your Job to YARN. Here what our final application will look like:
 
