@@ -58,7 +58,7 @@ ClientArguments cArgs = new ClientArguments(args.toArray(new String[args.size()]
 
 * **The System properties**
 
-Remember what I said earlier that Spark configuration can be confusing? there is a third place where you have to set Spark properties. System properties. If you are using Spark in YARN mode the only way to configure so is as a System property:
+Remember what I said earlier that Spark configuration can be confusing? there is a third place where you have to set Spark properties. System properties. If you are using Spark in YARN mode the only way to configure it as so is as a System property:
 
 ```System.setProperty("SPARK_YARN_MODE", "true");```
 
