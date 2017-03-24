@@ -68,6 +68,7 @@ Which should be enough for Spark to pick it up at runtime.
 Now you are ready to submit your Job to YARN. Here what our final application will look like:
 
 ```
+
 import com.google.common.collect.Lists;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.hadoop.conf.Configuration;
@@ -159,4 +160,5 @@ public class SparkJobSubmitter  {
   }
 
 }
+
 ```
