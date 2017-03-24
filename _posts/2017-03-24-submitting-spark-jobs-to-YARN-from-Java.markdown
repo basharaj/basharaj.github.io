@@ -68,7 +68,7 @@ Which should be enough for Spark to pick it up at runtime.
 
 * **Putting it all together**
 
-Now you are ready to submit your Job to YARN. Here what our final application will look like:
+Now you are ready to submit your Job to YARN. Here is what our final application will look like:
 
 ```
 
