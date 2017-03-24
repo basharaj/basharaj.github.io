@@ -1,6 +1,8 @@
 *These instructions are for Spark 1.6.2. Since Spark is notorious for breaking backward compatibility, these instructions may or may not work with Spark 2.x*
 
 
+*Some of the code examples here use Google's excellent [Guava](https://github.com/google/guava) library*
+
 One of the most common requirements when working with Spark is the ability to submit Spark jobs to YARN from your Java code instead of using [spark-submit](http://spark.apache.org/docs/latest/submitting-applications.html). In this post
 I'll show you how to do that.
 
