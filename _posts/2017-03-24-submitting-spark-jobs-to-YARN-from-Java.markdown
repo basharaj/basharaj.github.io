@@ -51,7 +51,8 @@ args.add(1);
 
 Once you have built your list of args, you need to pass them to `ClientArguments` as so:
 
-```ClientArguments cArgs = new ClientArguments(args.toArray(new String[args.size()]), sparkConf);
+```
+ClientArguments cArgs = new ClientArguments(args.toArray(new String[args.size()]), sparkConf);
 ```
 
 
