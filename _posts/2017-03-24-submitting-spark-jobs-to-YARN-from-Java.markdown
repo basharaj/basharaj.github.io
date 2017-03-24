@@ -6,7 +6,7 @@ I'll show you how to do that.
 
 * **Getting the right dependencies**
 
-At a minimum you are going to need the spark-core and spark-yarn dependencies. This includes the Spark classes that you are going to need to submit your Spark job.
+At a minimum you are going to need the `spark-core`` and `spark-yarn` dependencies. Those include the Spark classes that you are going to need to submit your Spark job.
 
 If you using Maven the dependencies are:
 
@@ -22,14 +22,14 @@ If you using Maven the dependencies are:
 ```
 * **SparkConf**
 
-[SparkConf](http://spark.apache.org/docs/1.6.2/api/java/org/apache/spark/SparkConf.html) is used to set the various Spark configurations which you would normally pass on `--conf` when using `spark-submit`. For example:
+[SparkConf](http://spark.apache.org/docs/1.6.2/api/java/org/apache/spark/SparkConf.html) is used to set the various Spark configurations which you would normally pass on to `--conf` when using `spark-submit`. For example:
 
 ```
 SparkConf sparkConf = new SparkConf();
 sparkConf.set("spark.yarn.preserve.staging.files", "true");
 ```
 
-* The Client Arguments
+* **The Client Arguments**
 
 One confusing thing about Spark is that there is no single way to configure it. Some configurations are set using configuration properties, some are using command line arguments and some using System properties. [ClientArguments](https://github.com/apache/spark/blob/v1.6.2/core/src/main/scala/org/apache/spark/deploy/ClientArguments.scala) is a Scala class that can be used
 to pass the command line arguments that you would normally pass to `spark-submit` command. This for example includes the job name, job class, job Jar..etc. One way to pass those arguments is to create a List of Strings as so:
@@ -51,15 +51,17 @@ args.add(1);
 
 Once you have built your list of args, you need to pass them to `ClientArguments` as so:
 
-`ClientArguments cArgs = new ClientArguments(args.toArray(new String[args.size()]), sparkConf);`
+```ClientArguments cArgs = new ClientArguments(args.toArray(new String[args.size()]), sparkConf);
+```
 
 
-* The System properties
+* **The System properties**
 
-Remember what I said earlier that Spark configuration can be confusing? here is a third place where you have to set Spark properties. System properties. If you are using Spark in YARN mode the only way to configure so is as a System property:
+Remember what I said earlier that Spark configuration can be confusing? there is a third place where you have to set Spark properties. System properties. If you are using Spark in YARN mode the only way to configure so is as a System property:
 
 `System.setProperty("SPARK_YARN_MODE", "true");`
 
+Which should be enough for Spark to pick it up at runtime.
 
 * Putting it all together
 
